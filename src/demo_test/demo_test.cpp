@@ -18,6 +18,7 @@ void RobotStatusCallback(void* pUser, void* pData, int nLen)
 
 int main()
 {
+    //ssssss
     int64_t llRet = MP_SUCCESS;
 
     // Create Handle
