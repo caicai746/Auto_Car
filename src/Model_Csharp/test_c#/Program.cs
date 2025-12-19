@@ -7,6 +7,7 @@ namespace CSharpApp
 {
     class Program
     {
+        //hello world mmmmm
         // 定义回调函数类型
         public delegate void RobotStatusCallbackDelegate(IntPtr pRobotStatus);
 
@@ -552,7 +553,6 @@ namespace CSharpApp
                     Console.WriteLine("1. 控制器IP地址和端口是否正确");
                     Console.WriteLine("2. 网络连接是否正常");
                     Console.WriteLine("3. 控制器是否已上电并处于可连接状态");
-
                     if (callbackResult != MP_SUCCESS)
                     {
                         Console.WriteLine("\n尝试重新设置回调函数...");
@@ -666,8 +666,8 @@ namespace CSharpApp
                     Console.WriteLine("上电成功!");
                 }
                 /*
-                 在这里写工作代码......
-                 */
+                在这里写工作代码......
+                */
                 //电机下电
                 if (connectResult == MP_SUCCESS)
                 {
