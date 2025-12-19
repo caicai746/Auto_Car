@@ -19,7 +19,7 @@ void RobotStatusCallback(void* pUser, void* pData, int nLen)
 int main()
 {
     int64_t llRet = MP_SUCCESS;
-
+    //加点注释
     // Create Handle
     void* pHandle = MP_CreateHandle();
     if (nullptr == pHandle)
