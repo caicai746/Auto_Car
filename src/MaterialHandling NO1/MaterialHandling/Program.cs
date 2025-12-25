@@ -23,6 +23,7 @@ namespace MaterialHandlingUI
         [STAThread]
         static void Main()
         {
+            //hello world
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             if (useDatabase)
