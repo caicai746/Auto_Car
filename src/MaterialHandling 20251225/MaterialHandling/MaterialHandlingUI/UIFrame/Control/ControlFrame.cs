@@ -105,5 +105,10 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame.Control
             panel_Message.Controls.Add(messagePanel);
             messagePanel.Show();
         }
+
+        private void Panel_Motor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

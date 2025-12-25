@@ -178,9 +178,8 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             // 
             this.tslCheck.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.tslCheck.Name = "tslCheck";
-            this.tslCheck.Size = new System.Drawing.Size(92, 52);
+            this.tslCheck.Size = new System.Drawing.Size(74, 52);
             this.tslCheck.Text = "操作界面";
-            this.tslCheck.Click += new System.EventHandler(this.tslCheck_Click);
             // 
             // stbQuery
             // 
@@ -195,7 +194,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             // 
             this.tslQuery.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.tslQuery.Name = "tslQuery";
-            this.tslQuery.Size = new System.Drawing.Size(92, 52);
+            this.tslQuery.Size = new System.Drawing.Size(74, 52);
             this.tslQuery.Text = "数据查询";
             // 
             // tsbParameter
@@ -212,7 +211,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             // 
             this.tslParameter.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.tslParameter.Name = "tslParameter";
-            this.tslParameter.Size = new System.Drawing.Size(92, 52);
+            this.tslParameter.Size = new System.Drawing.Size(74, 52);
             this.tslParameter.Text = "参数管理";
             // 
             // toolStripButton_logout
@@ -228,7 +227,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             // 
             this.toolStripLabel1.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(92, 52);
+            this.toolStripLabel1.Size = new System.Drawing.Size(74, 52);
             this.toolStripLabel1.Text = "注销系统";
             // 
             // toolStripButton1
@@ -245,7 +244,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             // 
             this.toolStripLabel2.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(92, 52);
+            this.toolStripLabel2.Size = new System.Drawing.Size(74, 52);
             this.toolStripLabel2.Text = "修改密码";
             // 
             // tsbQuit
@@ -261,7 +260,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             // 
             this.tslQuit.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.tslQuit.Name = "tslQuit";
-            this.tslQuit.Size = new System.Drawing.Size(92, 52);
+            this.tslQuit.Size = new System.Drawing.Size(74, 52);
             this.tslQuit.Text = "退出系统";
             // 
             // tslIntroduction
@@ -271,7 +270,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.tslIntroduction.ForeColor = System.Drawing.Color.SeaGreen;
             this.tslIntroduction.Name = "tslIntroduction";
             this.tslIntroduction.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.tslIntroduction.Size = new System.Drawing.Size(319, 52);
+            this.tslIntroduction.Size = new System.Drawing.Size(261, 52);
             this.tslIntroduction.Text = "智能机器人装卸系统V0.1";
             this.tslIntroduction.Click += new System.EventHandler(this.tslIntroduction_Click);
             // 
@@ -282,18 +281,18 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.UserInfo,
             this.tsslBlank,
             this.tsslTime});
-            this.ssInfo.Location = new System.Drawing.Point(0, 874);
+            this.ssInfo.Location = new System.Drawing.Point(0, 878);
             this.ssInfo.Name = "ssInfo";
             this.ssInfo.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
             this.ssInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ssInfo.Size = new System.Drawing.Size(1600, 26);
+            this.ssInfo.Size = new System.Drawing.Size(1600, 22);
             this.ssInfo.TabIndex = 3;
             this.ssInfo.Text = "statusStrip1";
             // 
             // UserInfo
             // 
             this.UserInfo.Name = "UserInfo";
-            this.UserInfo.Size = new System.Drawing.Size(212, 20);
+            this.UserInfo.Size = new System.Drawing.Size(172, 17);
             this.UserInfo.Text = "用户名：admin  角色：管理员";
             this.UserInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -301,14 +300,14 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             // 
             this.tsslBlank.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)));
             this.tsslBlank.Name = "tsslBlank";
-            this.tsslBlank.Size = new System.Drawing.Size(1368, 20);
+            this.tsslBlank.Size = new System.Drawing.Size(1408, 17);
             this.tsslBlank.Spring = true;
             this.tsslBlank.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tsslTime
             // 
             this.tsslTime.Name = "tsslTime";
-            this.tsslTime.Size = new System.Drawing.Size(0, 20);
+            this.tsslTime.Size = new System.Drawing.Size(0, 17);
             // 
             // timerClock
             // 
@@ -360,7 +359,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.PLCInfo.Font = new System.Drawing.Font("宋体", 10F);
             this.PLCInfo.Location = new System.Drawing.Point(895, 8);
             this.PLCInfo.Name = "PLCInfo";
-            this.PLCInfo.Size = new System.Drawing.Size(115, 19);
+            this.PLCInfo.Size = new System.Drawing.Size(93, 16);
             this.PLCInfo.TabIndex = 13;
             this.PLCInfo.Text = "未连接AAAAAA";
             // 
@@ -372,7 +371,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.CANInfo.Font = new System.Drawing.Font("宋体", 10F);
             this.CANInfo.Location = new System.Drawing.Point(895, 32);
             this.CANInfo.Name = "CANInfo";
-            this.CANInfo.Size = new System.Drawing.Size(115, 19);
+            this.CANInfo.Size = new System.Drawing.Size(93, 16);
             this.CANInfo.TabIndex = 14;
             this.CANInfo.Text = "未连接AAAAAA";
             // 
@@ -383,7 +382,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.label1.Font = new System.Drawing.Font("宋体", 10F);
             this.label1.Location = new System.Drawing.Point(861, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 17);
+            this.label1.Size = new System.Drawing.Size(28, 14);
             this.label1.TabIndex = 16;
             this.label1.Text = "PLC";
             // 
@@ -394,7 +393,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.label2.Font = new System.Drawing.Font("宋体", 10F);
             this.label2.Location = new System.Drawing.Point(861, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 17);
+            this.label2.Size = new System.Drawing.Size(28, 14);
             this.label2.TabIndex = 16;
             this.label2.Text = "VCU";
             // 
@@ -405,7 +404,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.label3.Font = new System.Drawing.Font("宋体", 10F);
             this.label3.Location = new System.Drawing.Point(1019, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 17);
+            this.label3.Size = new System.Drawing.Size(28, 14);
             this.label3.TabIndex = 16;
             this.label3.Text = "ROS";
             // 
@@ -416,7 +415,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.label4.Font = new System.Drawing.Font("宋体", 10F);
             this.label4.Location = new System.Drawing.Point(1019, 33);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 17);
+            this.label4.Size = new System.Drawing.Size(28, 14);
             this.label4.TabIndex = 16;
             this.label4.Text = "SVR";
             // 
@@ -428,7 +427,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.ROSInfo.Font = new System.Drawing.Font("宋体", 10F);
             this.ROSInfo.Location = new System.Drawing.Point(1053, 8);
             this.ROSInfo.Name = "ROSInfo";
-            this.ROSInfo.Size = new System.Drawing.Size(115, 19);
+            this.ROSInfo.Size = new System.Drawing.Size(93, 16);
             this.ROSInfo.TabIndex = 18;
             this.ROSInfo.Text = "未连接AAAAAA";
             // 
@@ -440,7 +439,7 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
             this.SVRInfo.Font = new System.Drawing.Font("宋体", 10F);
             this.SVRInfo.Location = new System.Drawing.Point(1053, 32);
             this.SVRInfo.Name = "SVRInfo";
-            this.SVRInfo.Size = new System.Drawing.Size(115, 19);
+            this.SVRInfo.Size = new System.Drawing.Size(93, 16);
             this.SVRInfo.TabIndex = 19;
             this.SVRInfo.Text = "未连接AAAAAA";
             // 

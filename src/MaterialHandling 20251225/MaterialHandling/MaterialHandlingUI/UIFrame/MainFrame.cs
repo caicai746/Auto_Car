@@ -355,10 +355,5 @@ namespace MaterialHandling.MaterialHandlingUI.UIFrame
         {
 
         }
-
-        private void tslCheck_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
